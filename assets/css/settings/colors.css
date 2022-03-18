@@ -1,0 +1,18 @@
+/* Criação de Variáveis */
+:root{
+    --color-font-global: #fff;
+
+    --color-br-icon: rgba(153, 7, 204, 0.1);
+
+    --color-primary-light: #B01BE3;
+    --color-primary-normal: #9907CC;
+    --color-primary-dark: #72009A;
+
+    --color-secundary-light: #040926;
+    --color-secundary-normal: #040926;
+    --color-secundary-dark: #000106;
+
+    --color-bg-primary: linear-gradient(180deg, #040926 -6.13%, rgba(153, 7, 204, 0.24) 124.8%);
+    --color-bg-secundary: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 182.37%);
+    --color-bg-third: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 107.73%);
+}
