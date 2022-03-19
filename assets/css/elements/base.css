@@ -22,11 +22,14 @@ a, p, button{
     background: var(--color-bg-primary);
     height: 608px;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
 }
@@ -123,12 +126,14 @@ header > img{
 /* Home with Button Action */
 .welcome{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 section.left{
     width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 section.right{
@@ -178,6 +183,7 @@ button.btn-cta-home:hover{
     background-color: var(--color-secundary-normal);
     padding: 24px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .title-solution{
@@ -225,18 +231,19 @@ button.btn-cta-home:hover{
     align-items: center;
     background-color: #71009a17;
     border-radius: 8px;
-    margin: 2px;
+    margin: 3px;
+    padding: 20px;
 }
 
 .icon{
-    width: 92px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     background-color: var(--color-br-icon);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 div.card > h1{
@@ -246,6 +253,7 @@ div.card > h1{
     width: 328px;
     height: 24px;
     margin-bottom: 8px;
+    padding: 3px;
 }
 
 div.card > p{
@@ -256,6 +264,8 @@ div.card > p{
     line-height: 24px;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 16px;
+    padding: 6px;
+    letter-spacing: 0.4px;
 }
 
 .bt-cta-card{
@@ -266,6 +276,7 @@ div.card > p{
     text-align: center;
     padding: 10px 34px;
     margin-top: 19px;
+    margin-bottom: 16px;
     cursor: pointer;
     font-size: 14px;
 }
@@ -281,10 +292,13 @@ div.card > p{
     align-items: center;
     background: var(--color-bg-secundary);
     padding: 24px;
+    height: 560px;
 }
 
 div.left{
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 div.right{
@@ -403,7 +417,7 @@ button.btn-cta:hover{
 }
 
 .card-tes > div > p{
-    width: 526x;
+    width: 526px;
     height: 112px;
     font-style: normal;
     font-weight: 400;
@@ -473,7 +487,7 @@ footer{
     gap: 10px;
 }
 
-.footer-img-social > div{
+.footer-img-social > a > div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -491,7 +505,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
 }
 
@@ -501,6 +515,7 @@ footer{
     align-items: center;
     gap: 7px;
     margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 .foot-localization > p{
@@ -515,6 +530,8 @@ footer{
 .lgpd{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .lgpd-title{
@@ -535,6 +552,10 @@ footer{
     line-height: 25px;
     color: #FFFFFF;
     list-style: disc;
+}
+
+.lgpd > ul> li{
+    margin-left: 15px;
 }
 
 .fuul-footer{
