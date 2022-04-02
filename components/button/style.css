@@ -1,0 +1,53 @@
+/* Style for Button CTA Primary  */
+.bnt-cta-primary{
+    width: 139px;
+    height: 42px;
+    background-color: var(--color-primary-normal);
+    border-radius: 38px;
+    text-align: center;
+    padding: 10px 34px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.bnt-cta-primary:hover{
+    background-color: var(--color-primary-light);
+}
+
+
+/* Style for Button CTA Second | Section Solution  */
+.bnt-cta-second{
+    width: 140px;
+    height: 36px;
+    background-color: var(--color-primary-normal);
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px 34px;
+    margin-top: 19px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bnt-cta-second:hover{
+    background-color: var(--color-primary-light);
+}
+
+/* Style for Button CTA third | Section About-us  */
+.btn-cta-third{
+    width: 140px;
+    height: 36px;
+    background-color: var(--color-font-global);
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px 34px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #670894;
+    margin-bottom: 90px;
+}
+
+.btn-cta-third:hover{
+    background-color: var(--color-primary-light);
+    color: var(--color-font-global);
+}
