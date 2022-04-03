@@ -1,0 +1,39 @@
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+@media (max-width: 480px){
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        right: 36px;
+    }
+
+    .menu > ul{
+        position: absolute;
+        right: 0;
+        top: 20vh;
+        width: 48vw;
+        height: 80vh;
+        background: #361f70;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(100%);
+    }
+
+    .menu > ul.active{
+        transform: translateX(0%);
+    }
+
+    .menu > ul > li{
+        opacity: 0;
+    }
+}
