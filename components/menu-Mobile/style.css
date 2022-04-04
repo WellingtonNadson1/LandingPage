@@ -11,6 +11,11 @@
 }
 
 @media (max-width: 480px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     .mobile-menu{
         display: block;
         position: absolute;
@@ -20,20 +25,20 @@
     .menu > ul{
         position: absolute;
         right: 0;
-        top: 20vh;
-        width: 48vw;
-        height: 80vh;
-        background: #361f70;
+        top: 15.5vh;
+        width: 50vw;
+        height: 85.5vh;
+        background: linear-gradient(180deg, #040926 90%, rgba(153, 7, 204, 0.24) 120.8%);
         display: flex;
         flex-direction: column;
         transform: translateX(100%);
     }
 
-    .menu > ul.active{
+    .menu-list.active{
         transform: translateX(0%);
     }
-
+    
     .menu > ul > li{
-        opacity: 0;
+        /* opacity: 0; */
     }
 }

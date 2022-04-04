@@ -532,15 +532,16 @@ footer{
     }
 
     .top{
-        margin-bottom: 2.4rem;
+        margin-bottom: 3.4rem;
         justify-content: space-between;
     }
 
     .home{
         background: var(--color-bg-primary);
-        height: 903px;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        height: 53rem;
+        box-sizing: border-box;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
         padding-left: 2.1rem;
         padding-right: 2.1rem;
         display: flex;
@@ -549,10 +550,10 @@ footer{
     }
 
     .welcome{
-        height: 45.8rem;
         flex-direction: column;
         text-align: center;
         gap: 4.81rem;
+        margin-top: 1rem;
     }
 
     section.left{
@@ -589,6 +590,7 @@ footer{
     .solution{
         padding-left: 2.1rem;
         padding-right: 2.1rem;
+        margin-bottom: 45px;
     }
 
     .title-solution > h1:nth-child(2){

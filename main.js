@@ -1,5 +1,7 @@
 import Button from './components/button'
+import './components/menu-Mobile'
 import './style.css'
+
 
 
 const $home = document.querySelector('#home');

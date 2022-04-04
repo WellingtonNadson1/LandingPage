@@ -1,5 +1,5 @@
 @import url(./generic/reset.css);
 @import url(./settings/colors.css);
 @import url(./elements/base.css);
-@import url(./elements/menu-mobile.css);
+@import url(/components/menu-Mobile/style.css);
 
