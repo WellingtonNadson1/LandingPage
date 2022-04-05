@@ -4,7 +4,7 @@ import './style.css'
 
 
 
-const $home = document.querySelector('#home');
+const $home = document.querySelector('section.left > div:nth-child(1)');
 $home.insertAdjacentHTML('beforeend', Button('bnt-cta-primary', 'Saiba mais'));
 
 // I created button componet for the box cards 

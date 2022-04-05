@@ -203,13 +203,13 @@ section.left > div:nth-child(1) > p:nth-child(2){
 
 .cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 /* Style Cards */
 .card{
-    width: 393px;
+    width: 30%;
     height: 306px;
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@ section.left > div:nth-child(1) > p:nth-child(2){
     background-color: #71009a17;
     border-radius: 8px;
     margin: 3px;
-    padding: 20px;
+    padding: 18px;
 }
 
 .icon{
@@ -348,7 +348,8 @@ div.left > div:nth-child(1) > p:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    width: 90%;
+    gap: 2rem;
 }
 
 .card-tes > div > img{
@@ -360,20 +361,18 @@ div.left > div:nth-child(1) > p:nth-child(2){
 .card-tes > div{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    margin-right: 31px;
-    margin-left: 31px;
     text-align: left;
 }
 
 .card-tes > div > p{
-    width: 526px;
-    height: 112px;
+    width: 100%;
+    height: 115px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: var(--color-font-global);
     margin-bottom: 18px;
 }
@@ -408,6 +407,8 @@ div.left > div:nth-child(1) > p:nth-child(2){
 
 footer{
     background: var(--color-bg-third);
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-div{
@@ -597,6 +598,10 @@ footer{
         width: auto;
     }
 
+    div.card{
+        width: auto;
+    }
+
 /* About Area  */
 
     .about{
@@ -660,6 +665,15 @@ footer{
         width: 25.75rem;
     }
 
+    .horizontal-line{
+        content: "hr";
+        width: 90%;
+        height: .1rem;
+        background: linear-gradient(270deg, rgba(153, 7, 204, 0.4) 0%, #9907CC 49.57%, rgba(153, 7, 204, 0.4) 102.65%);
+        margin-bottom: 3rem;
+        margin-top: -1rem;
+    }
+
     /* Footer Area  */
 
     body > footer{
@@ -693,6 +707,17 @@ footer{
         gap: 1.21rem;
       }
     
+    .version-mobile{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 3.3rem;
+        gap: 2rem;
+    }
+
+    .version-mobile > div{
+        width: 50%;
+    }
 
     .where{
         margin-top: 0rem;
