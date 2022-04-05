@@ -16,3 +16,10 @@ let $btnCardSolution = Array
 
 const $btnAboutUs = document.querySelector('#about-us');
 $btnAboutUs.insertAdjacentHTML('beforeend', Button('btn-cta-third', 'Saiba mais'));
+
+
+const $btnScroll = document.querySelector('.scroll');
+console.log($btnScroll);
+$btnScroll.addEventListener('click', () => {
+    window.scrollTo(0, 0);
+});

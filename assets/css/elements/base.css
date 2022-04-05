@@ -20,6 +20,20 @@ a, p, button{
     border: none;
 }
 
+.scroll{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    cursor: pointer;
+}
+
 .home{
     background: var(--color-bg-primary);
     height: 608px;
