@@ -12,10 +12,6 @@
 
 @media (max-width: 480px){
 
-    body{
-        overflow-x: hidden;
-    }
-
     .top > img:nth-child(1){
         position: absolute;
         left: 3rem;
@@ -27,7 +23,12 @@
         right: 36px;
     }
 
+    .menu{
+        display: none;
+    }
+
     .menu > ul{
+        display: none;
         position: absolute;
         right: 0;
         top: 15.5vh;
@@ -37,11 +38,16 @@
         display: flex;
         flex-direction: column;
         transform: translateX(100%);
-        transition: all 0.3s ease;
+        transition: all 0.4s ease;
+    }
+
+    .menu.active{
+        display: block;
     }
 
     .menu-list.active{
         transform: translateX(0%);
+        transition: 0.4;
     }
     
     /* .menu > ul > li{

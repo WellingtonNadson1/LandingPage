@@ -540,10 +540,6 @@ footer{
 
 @media (max-width: 480px){
 
-    body{
-        width: 28.75rem;
-    }
-
     .top{
         margin-bottom: 3.4rem;
         justify-content: space-between;
@@ -601,8 +597,7 @@ footer{
     }
 
     .solution{
-        padding-left: 2.1rem;
-        padding-right: 2.1rem;
+        padding: 0 2.1rem;
         margin-bottom: 45px;
     }
 
@@ -621,8 +616,7 @@ footer{
         text-align: center;
         height: 49.4rem;
         margin-bottom: 2rem;
-        padding-left: 2.1rem;
-        padding-right: 2.1rem;
+        padding: 0 2.1rem;
     }
 
     .about > div.left{
@@ -655,8 +649,7 @@ footer{
     /* Testemonial Area  */
 
     .testimonial{
-        padding-left: 2.1rem;
-        padding-right: 2.1rem;
+        padding: 0 2.1rem;
     }
 
     .card-tes{
@@ -693,7 +686,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 33rem;
+        height: 42rem;
     }
 
     .logo-footer{
@@ -724,12 +717,13 @@ footer{
         justify-content: space-around;
         align-items: flex-start;
         margin-top: 3.3rem;
-        gap: 2rem;
+        gap: 0;
+        margin-right: 0;
     }
 
-    .version-mobile > div{
+    /* .version-mobile > div{
         width: 50%;
-    }
+    } */
 
     .where{
         margin-top: 0rem;
