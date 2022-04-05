@@ -538,7 +538,7 @@ footer{
 
 /* Responsividade  */
 
-@media (max-width: 480px){
+@media (max-width: 768px){
 
     .top{
         margin-bottom: 3.4rem;
@@ -760,7 +760,7 @@ footer{
     }
 
     .fuul-footer{
-        margin-top: 2rem;
+        margin-top: 5rem;
         margin-left: 0rem;
         margin-right: 0rem;
         width: 78%;
