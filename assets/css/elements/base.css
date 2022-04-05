@@ -461,6 +461,18 @@ footer{
     text-align: center;
 }
 
+.version-mobile{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5rem;
+    margin-right: 5rem;
+}
+
+.foot-localization{
+    margin-right: 4.4rem;
+}
+
 .where{
     display: flex;
     justify-content: center;
